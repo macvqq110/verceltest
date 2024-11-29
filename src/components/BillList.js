@@ -21,9 +21,9 @@ const BillList = ({ bills, onDelete, onSelect }) => {
 
   return (
     <div>
-      <div style="text-align: center;">
+      <div style={{textAlign: "center"}}>
         <label>
-          按月份筛选:
+          待办事项按月份筛选:
           <select value={filterMonth} onChange={handleMonthChange}>
             <option value="">所有月份</option>
             <option value="1">一月</option>
@@ -41,7 +41,7 @@ const BillList = ({ bills, onDelete, onSelect }) => {
           </select>
         </label>
         <label>
-          按类别筛选:
+        待办事项按类别筛选:
           <select value={filterCategory} onChange={handleCategoryChange}>
             <option value="">所有类别</option>
             <option value="food">食物</option>
