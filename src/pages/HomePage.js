@@ -16,7 +16,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>记账管理器</h1>
+      <h1>待办事项</h1>
       <BillForm onSubmit={addBill} />
       <BillList bills={bills} onDelete={deleteBill} />
     </div>

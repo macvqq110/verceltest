@@ -7,7 +7,7 @@ const ChartPage = () => {
     console.log('bills', bills)
   return (
     <div>
-      <h1>图表统计demo</h1>
+      <h1>图表统计展示</h1>
       <Chart data={bills} />
     </div>
   );

@@ -21,7 +21,7 @@ const BillList = ({ bills, onDelete, onSelect }) => {
 
   return (
     <div>
-      <div>
+      <div style="text-align: center;">
         <label>
           按月份筛选:
           <select value={filterMonth} onChange={handleMonthChange}>
